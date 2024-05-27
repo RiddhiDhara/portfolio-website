@@ -1058,6 +1058,8 @@ button{
 }
 
 
+
+
 /* ----------------------------------- */
 
 .dropdown {
@@ -1090,10 +1092,22 @@ button{
     text-decoration: none;
     display: block;
 }
+.dropdown-content div a{
+    color: #2a9523;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown-content div a:hover{
+    color: #6807a1;
+    text-decoration: underline;
+}
 
 .dropdown-content div:hover {
     background-color: #ddd;
 }
+
+
 
 /*============================responsive==========================*/
 
@@ -1157,6 +1171,10 @@ button{
     font-size: 20px;
     text-align: justify;
 }
+
+/* .profile{
+    text-align: justify;
+} */
 
 /* -----------thirdsection----------- */
 
