@@ -75,7 +75,7 @@ body {
     width: 100%;
     height: 100px;
     line-height: 90px;
-    z-index: 5;
+    z-index: 1000;
     background-color: #1f1d21;
 }
 
@@ -164,6 +164,7 @@ body {
     height: 2px;
     top: 100px;
     background-color: #ffffff;
+    z-index: 1000;
 }
 
 /* --------------------------------- */
@@ -205,7 +206,7 @@ body {
         display: flex;
         justify-content: center;
         width: 100%;
-        height: 80vh;
+        /* height: 80vh; */
         backdrop-filter: blur(20px);
         background-color: rgb(115, 125, 124);
         transition: .3s;
@@ -301,7 +302,7 @@ body {
 }
 
 .descript1{
-    color: #00ffa6;
+    color: rgb(207, 206, 206);
     padding-top: 20px;
 }
 
@@ -405,7 +406,7 @@ body {
     border-radius: 3px; /* Add rounded corners to the slider */
 }
 
-
+ 
 .main2{
     display: flex;
     justify-content: center;
